@@ -18,11 +18,11 @@ class MainPage extends React.Component{
         const listData = [];
         for (let i = 0; i < 23; i++) {
             listData.push({
-                title: `ant design part ${i}`,
+                title: `paintings ${i}`,
                 description:
-                'Ant Design, a design language for background applications, is refined by Ant UED Team.',
+                'Types of paintings',
                 content:
-                'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
+                'Descriptions of paintings',
             });
         }
 
